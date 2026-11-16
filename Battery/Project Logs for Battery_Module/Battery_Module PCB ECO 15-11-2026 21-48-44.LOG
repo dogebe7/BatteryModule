@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=U1-22
+Add component: Footprint Not Found CAPC2013X140X50ML20T25
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Change Net Name : Old Net Name=NetR2_2 New Net Name=NetC3_2
+Add Class Member: Failed to add class member : Component C3 100nF

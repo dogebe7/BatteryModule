@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+5V Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=J7-4
+Removed Pin From Net: NetName=+5V Pin=J7-6
+Removed Pin From Net: NetName=SCL Pin=R2-1
+Removed Pin From Net: NetName=+5V Pin=R2-2
+Removed Pin From Net: NetName=SDA Pin=R3-1
+Removed Pin From Net: NetName=+5V Pin=R3-2
+Removed Pin From Net: NetName=VIN Pin=R4-2
+Removed Pin From Net: NetName=GND Pin=R5-1
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=SCL Pin=U2-3
+Removed Pin From Net: NetName=SDA Pin=U2-4
+Removed Pin From Net: NetName=+5V Pin=U2-5
+Removed Pin From Net: NetName=GND Pin=U2-6
+Removed Pin From Net: NetName=NetC8_1 Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U3-2
+Removed Pin From Net: NetName=+5V Pin=U3-3
+Change Component Footprint: Designator=U2 Old Footprint=TI-DBV6_N New Footprint=PWSSO-12
+Change Component Footprint: Designator=R2 Old Footprint=YAGO-RC0805_M New Footprint=RESC1005X40X25LL10T10
+Change Component Footprint: Designator=R3 Old Footprint=YAGO-RC0805_M New Footprint=RESC1005X40X25NL10T10
+Change Component Comment : Designator=R2 Old Comment=4k7 New Comment=10k
+Change Component Comment : Designator=R3 Old Comment=4k7 New Comment=51K
+Change Component Comment : Designator=U2 Old Comment=ADS1110A0IDBVT New Comment=L99VR035PTR
+Change Component Comment : Designator=J7 Old Comment=ICSP New Comment=
+Change Component Comment : Designator=J8 Old Comment=UART New Comment=
+Change Managed Component Library Link : Designator=U2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=0E25AE68-4D74-4385-A88E-B576C595AD15 Old ItemGUID=1F16AA92-FD52-442F-8319-901BA7E66BC4 New ItemGUID=CEF7174A-ED71-4D64-8771-92BDEF440534 Old RevisionGUID=CD43507C-2872-4CBD-91FD-5F52ABC460DA New RevisionGUID=9C68EE39-3086-47BF-880C-71061B4D62EF
+Change component parameters: Designator = "U2" ("U2"); Footprint = "TI-DBV6_N"; UniqueID = "\YTVIPHUG" ("\YTVIPHUG")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "L99VR035PTR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=J7-4
+Added Pin To Net: NetName=GND Pin=J7-6
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=VIN Pin=R3-2
+Added Pin To Net: NetName=GND Pin=U1-22
+Added Pin To Net: NetName=NetC8_1 Pin=U2-1
+Added Pin To Net: NetName=+5V Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetC8_1 Pin=U2-12
+Added Pin To Net: NetName=GND Pin=U2-TAB
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=R3-1
+Added Pin To Net: NetName=NetR2_2 Pin=U1-19
+Added Net: Name=NetR2_2
+Added Member To Class: ClassName=Battery_Module Member=Component U2 L99VR035PTR
